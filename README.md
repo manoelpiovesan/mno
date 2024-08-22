@@ -1,5 +1,5 @@
 ## Métodos Numéricos de Otimização
-
+#### Métodos Implementados
 - Método da Seção Áurea
 - Método de Newton
 
