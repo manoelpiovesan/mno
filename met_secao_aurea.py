@@ -1,3 +1,5 @@
+
+# Constante da seção áurea
 fi = 0.618
 
 # Método da seção áurea
