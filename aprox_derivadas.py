@@ -12,4 +12,3 @@ class AproxDerivadas:
     
     def df3(self, x):
         return (self.f(x - 2*self.h) - 8*self.f(x - self.h) + 8*self.f(x + self.h) - self.f(x + 2*self.h)) / (12 * self.h)
-    

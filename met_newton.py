@@ -12,7 +12,7 @@ def df1(x):
 def df2(x):
     return 2
 
-# Método de Newton
+# Método de Newton com derivadas exatas
 def met_newton(f, df1, df2, x_inicial, tol, max_iter):
     i = 0
     x0 = x_inicial
@@ -28,6 +28,7 @@ def met_newton(f, df1, df2, x_inicial, tol, max_iter):
     print("Solução: ", x1)
     return x1
 
+# Método de Newton com derivadas aproximadas
 def met_newton_derivadas_aprox(f, x_inicial, tol, max_iter):
     i = 0
     x0 = x_inicial
